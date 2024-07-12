@@ -1,0 +1,17 @@
+services:
+  wppconnect:
+    build: .
+    image: sys:1.0
+    container_name: Assistente-Virtual
+    hostname: sys-assistent
+    ports:
+      - "21465:21465"
+    tty: true
+    environment:
+      - PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+      - PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium-browser
+      - STUDIO_APIKEY
+    volumes:
+      - ./tokens:/home/node/app/tokens
+      - ./json:/home/node/app/json
+    command: npm run dev
