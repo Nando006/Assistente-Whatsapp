@@ -68,7 +68,7 @@ O administrador pode controlar o estado do assistente (ativado/desativado) envia
 
 ## 👨‍💻 Desenvolvido por
 
-- [Seu Nome](https://github.com/seu-usuario)
+- [Fernando](https://github.com/seu-usuario)
 - [Portfolio](https://FernandoSergio.dev.br)
 
 ## 📄 Licença
